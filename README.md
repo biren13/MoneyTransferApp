@@ -25,3 +25,13 @@ Response:
     HTTP 200 OK
     {"status":"SUCCESS","message":"successful"}
 ```
+#### Get Account Transaction 
+```
+    GET http://localhost:4567/Transfer/1
+  ```
+Response:
+```
+    HTTP 200 OK
+    {"status":"SUCCESS","data":[{"id":1,"accountId":1,"creditDebitIndicator":"D","amount":10,"currency":"USD","baseAmount":10,"baseCurrency":"USD","description":"Transfer money","valueDate":"Mar 2, 2020, 8:21:00 PM"}]}
+   
+```
