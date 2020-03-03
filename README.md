@@ -10,7 +10,7 @@
 ```
 ## Application usage
 ### Create Money Transfer Transaction
-The following request creates an account and returns empty body with 201 status code
+
 ```
     POST http://localhost:4567/Transfer
     { 
