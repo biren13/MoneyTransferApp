@@ -1,4 +1,4 @@
-# RevolutMoneyTransferApp - A REST API for to transfer  money between accounts <br> <br>
+# MoneyTransferApp - A REST API for to transfer  money between accounts <br> <br>
 ### Requirements
 > Java 9+
 ### Build - Run
