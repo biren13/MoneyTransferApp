@@ -8,7 +8,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 
 public class MoneyTransferCommandControllerImplTest {
-    private final String SERVICE_END_POINT = "http://localhost:4567/Transfer";
+    private final String SERVICE_END_POINT = "http://localhost:4567/transfer";
     @
             BeforeClass
     public static void setUp() {
