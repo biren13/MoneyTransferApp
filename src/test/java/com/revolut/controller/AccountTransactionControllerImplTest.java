@@ -21,7 +21,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class AccountTransactionControllerImplTest {
-    private final String SERVICE_END_POINT = "http://localhost:4567/Transfer";
+    private final String SERVICE_END_POINT = "http://localhost:4567/transfer";
     private JsonParser jsonParser;
 
     @BeforeClass
