@@ -39,7 +39,7 @@ public class RevolutMoneyTransferApp {
             return jsonParser.toJsonFromPojo(response);
         });
 
-        post("/Transfer", (req, res) -> {
+        post("/transfer", (req, res) -> {
             StandardResponse response = moneyTransferCommandController.doMoneyTransfer(req, res);
             return jsonParser.toJsonFromPojo(response);
         });
